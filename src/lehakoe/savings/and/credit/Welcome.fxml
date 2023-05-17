@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lehakoe.savings.and.credit.FXMLDocumentController">
+    <children>
+      <ImageView fx:id="imageView" fitHeight="357.0" fitWidth="1006.0" layoutX="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/welcomecover.jpg" />
+         </image>
+      </ImageView>
+      
+      <Button fx:id="loginbtn" alignment="CENTER" layoutX="439.0" layoutY="418.0" mnemonicParsing="false" onAction="#login" prefHeight="43.0" prefWidth="122.0" style="-fx-background-color: #17176d;" text="Log in" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      
+      <Button fx:id="registerbtn" alignment="CENTER" layoutX="439.0" layoutY="477.0" mnemonicParsing="false" onAction="#register" prefHeight="43.0" prefWidth="122.0" style="-fx-background-color: #17176d;" text="Register" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+    </children>
+</AnchorPane>

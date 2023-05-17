@@ -1,0 +1,22 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.pane{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 0px 0px 30px 30px;
+    -fx-border-color: #C1C1C1;
+    -fx-border-radius: 0px 0px 30px 30px;
+}
+
+.card{
+    -fx-border-radius: 20px 20px 20px 20px;
+    -fx-background-radius: 20px 20px 20px 20px;
+    -fx-background-color:linear-gradient(to right,#17176d ,#4849bf );
+}
+
+.card2{
+    -fx-border-radius: 20px 20px 20px 20px;
+    -fx-background-radius: 20px 20px 20px 20px;
+    -fx-background-color:#4E4E4E;
+}
